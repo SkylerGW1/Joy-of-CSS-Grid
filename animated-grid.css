@@ -6,8 +6,8 @@
 
     grid-template-areas: 
     'a b c d '
-    'l ⭐ ⭐ e '
-    'k ⭐ ⭐ f '
+    'l main main e '
+    'k main main f '
     'j i h g ';
 
     grid-template-rows: repeat(4, 25%);
@@ -87,6 +87,6 @@
     animation-delay: calc(12 * var(--stagger-delay));
 }
 .card:last-child {
-    grid-area: ⭐;
+    grid-area: main;
     animation-delay: calc(13 * var(--stagger-delay));
 }
